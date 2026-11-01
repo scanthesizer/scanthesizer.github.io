@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scanthesizer support</title>
+<meta name="description" content="Help for Scanthesizer, the private on-device document scanner for iPhone.">
+<style>
+:root {
+  color-scheme: light dark;
+  --canvas: #f5f5f7;
+  --label: #1d1d1f;
+  --secondary: #6e6e73;
+  --accent: #0066cc;
+  --hairline: #d2d2d7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #000;
+    --label: #f5f5f7;
+    --secondary: #a1a1a6;
+    --accent: #2997ff;
+    --hairline: #38383a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--label);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+h1 { font-size: 2.4rem; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 1rem; }
+h2 { font-size: 1.45rem; letter-spacing: -0.01em; margin: 2.6rem 0 0.6rem; padding-top: 1.4rem; border-top: 1px solid var(--hairline); }
+h3 { font-size: 1.05rem; margin: 1.6rem 0 0.2rem; }
+p, li { margin: 0.5rem 0; }
+ul { padding-left: 1.2rem; }
+a { color: var(--accent); }
+.lead { font-size: 1.2rem; color: var(--secondary); }
+.meta, .crumb { color: var(--secondary); font-size: 0.9rem; }
+.crumb { margin: 0 0 1.4rem; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Scanthesizer</h1>
+<p class="lead">A private document scanner for iPhone. Scan paper, read it on your iPhone, search every word, and keep it all on the device: no account, no ads, no tracking.</p>
+<p><a href="privacy.html">Privacy policy</a> &middot; <a href="mailto:guyandamac@gmail.com">Contact support</a></p>
+
+<h2>Getting help</h2>
+<p>Write to <a href="mailto:guyandamac@gmail.com">guyandamac@gmail.com</a>. Say which iPhone and which version of iOS you have (Settings, General, About), and what you saw. Please do not send scans: describe the problem instead.</p>
+
+<h2>Questions people ask</h2>
+
+<h3>How do I scan?</h3>
+<p>Tap Scan on the Home screen, hold the iPhone over the page and it is captured and straightened for you. Several pages in one go make one document. You can also bring in photos with the picture button at the top left of Home.</p>
+
+<h3>Where are my scans?</h3>
+<p>On your iPhone, in the app's own storage. Nothing is uploaded. If you back up your iPhone with iCloud or a computer, Apple's device backup can include the app's data.</p>
+
+<h3>I deleted a scan by mistake.</h3>
+<p>Open Settings, then Recently Deleted. Deleted scans wait there for 30 days; open one and tap Restore. After 30 days they are removed for good.</p>
+
+<h3>What is free and what is Pro?</h3>
+<p>The free version keeps up to 15 documents and lets you share as PDF or images, edit pages, restore from a backup and use Recently Deleted. Pro is one purchase, not a subscription, and adds unlimited documents, search inside every scan, folders and automatic sorting, app lock, accent colours and icons, and backups.</p>
+
+<h3>I bought Pro on another iPhone, or reinstalled the app.</h3>
+<p>Open Settings and tap Restore Purchase (it is also at the bottom of the Pro screen). Use the same Apple account you bought with.</p>
+
+<h3>How does search work, and is it really private?</h3>
+<p>With Pro, each page is read on the iPhone when it is scanned, so you can search for any word and jump to the page that has it. Spelling slips are forgiven. Reading and search use Apple's frameworks on the device; the app has no networking code at all.</p>
+
+<h3>How do I back up and restore?</h3>
+<p>Settings, Back Up and Share saves everything to one file you can keep in Files, iCloud Drive or anywhere you like. Restore From Backup, in the same place, brings it back and is always free. Backups are not encrypted, so keep them somewhere private.</p>
+
+<h3>How do I lock the app?</h3>
+<p>With Pro, Settings, Security. The app then asks for Face ID or your passcode, and hides your scans in the app switcher.</p>
+
+<h3>Does it work on the iPhone Duo?</h3>
+<p>Yes. Unfolded, the library sits on the left and the open document on the right.</p>
+
+<h3>Accessibility</h3>
+<p>Scanthesizer supports Dynamic Type, VoiceOver and Reduce Motion, in light and dark.</p>
+</main>
+</body>
+</html>
